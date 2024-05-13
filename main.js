@@ -24,19 +24,19 @@ while (input != 0) {
     `)
     
     switch (input) {
-        case 1:
+        case "1":
             loginUser()
             break;
-        case 2:
+        case "2":
             loginAdmin()
             break;
-        case 3:
+        case "3":
             addUser()
             break;
-        case 4:
+        case "4":
             removeUser()
             break;
-        case 5:
+        case "5":
             showUsers()
             break;
         default:
